@@ -1,0 +1,37 @@
+.feedback {
+    padding-bottom: 48px;
+    &__item {
+        img {
+            display: block;
+            width: 169px;
+            height: 169px;
+            margin-right: 60px;
+        }
+        display: flex;
+        margin-top: 60px;
+    }
+        p {
+            max-width: 680px;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+            color: #0D0D0D;
+            margin-bottom: 16px;
+            span {
+                font-family: 'MuseoModerno', sans-serif;
+            }
+    } 
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+        margin-bottom: 0;
+    }
+    &__achieve {
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+        margin-bottom: 10px;
+    }
+
+}
